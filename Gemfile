@@ -33,6 +33,9 @@ gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
 
+# alternative to setting env variables in unix shell
+gem 'figaro'
+
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
