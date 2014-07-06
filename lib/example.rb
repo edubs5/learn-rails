@@ -24,7 +24,7 @@ class Example < Object
     titled_name = "#{@honorific} #{@name}"
   end
 
-  def december_birtdays
+  def december_birthdays
     born_in_december = []
     famous_birthdays.each do |name, date|
       if date.month == 12
