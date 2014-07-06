@@ -26,7 +26,7 @@ class Example < Object
 
   def december_birtdays
     born_in_december = []
-    famous_birthdays.each do |name, do|
+    famous_birthdays.each do |name, date|
       if date.month == 12
         born_in_december << name
       end
