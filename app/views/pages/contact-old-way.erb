@@ -5,10 +5,10 @@
 <h3>Contact old way</h3>
 
 <div class="form">
-  <%= simple_form_for :contact_old_way, url: contact_old_way do |form| %>
+  <%= simple_form_for :contact_old_way, url: contact_old_way_path do |form| %>
     <%= form.input :name, autofocus: true %>
     <%= form.input :email %>
-    <%= form.input :content, as: text %>
-    <%= form.button :submit, 'Submit', :class "submit" %>
+    <%= form.input :content, as: :text %>
+    <%= form.button :submit, 'Submit', class: "submit" %>
   <% end %>
 </div>
